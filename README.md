@@ -30,7 +30,9 @@ The project demonstrates my hands-on experience with development tools, automati
 **Visit my website:**
 
 [https://ralcoralson.github.io/DeveloperPortfolioFinal/](https://ralcoralson.github.io/DeveloperPortfolioFinal/)
+## 📄 My Resume
 
+[Download My Resume (PDF)](Portfolio/Ashish_Vats_Resume.pdf)
 ## 🚀 My Projects & Work
 
 ### 1. VOID – Local AI Assistant

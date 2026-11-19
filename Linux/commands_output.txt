@@ -1,0 +1,45 @@
+===== HOME DIRECTORY =====
+total 40
+drwx------  5 root root 4096 Nov 20 01:43 .
+drwxr-xr-x 20 root root 4096 Oct  5 23:50 ..
+-rw-------  1 root root  206 Nov 20 01:24 .bash_history
+-rw-r--r--  1 root root 3106 Apr 20  2026 .bashrc
+drwx------  2 root root 4096 Aug 26 11:01 .cache
+-rw-r--r--  1 root root   62 Nov 20 01:28 .gitconfig
+-rw-------  1 root root   20 Nov 20 01:43 .lesshst
+-rw-r--r--  1 root root  132 Apr 20  2026 .profile
+drwx------  2 root root 4096 Oct  6 00:47 .ssh
+-rw-r--r--  1 root root    0 Oct  7 15:06 bettercap.history
+drwx------ 10 root root 4096 Oct  6 00:47 snap
+
+===== RUNNING PROCESSES =====
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.3  0.3  25680 17276 ?        Ss   01:24   0:09 /usr/lib/systemd/systemd --switched-root --system --deserialize=57 splash
+root           2  0.0  0.0      0     0 ?        S    01:24   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    01:24   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   01:24   0:00 [kworker/R-rcu_gp]
+root           5  0.0  0.0      0     0 ?        I<   01:24   0:00 [kworker/R-sync_wq]
+root           6  0.0  0.0      0     0 ?        I<   01:24   0:00 [kworker/R-kvfree_rcu_reclaim]
+root           7  0.0  0.0      0     0 ?        I<   01:24   0:00 [kworker/R-slub_flushwq]
+root           8  0.0  0.0      0     0 ?        I<   01:24   0:00 [kworker/R-netns]
+root          10  0.0  0.0      0     0 ?        I<   01:24   0:00 [kworker/0:0H-kblockd]
+
+===== DISK USAGE =====
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           926M  2.7M  924M   1% /run
+/dev/sda2        19G   12G  5.9G  67% /
+tmpfs           2.3G     0  2.3G   0% /dev/shm
+efivarfs        256K   75K  177K  30% /sys/firmware/efi/efivars
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           2.3G  8.0K  2.3G   1% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+/dev/sda1       952M  6.4M  945M   1% /boot/efi
+tmpfs           463M   96K  463M   1% /run/user/1000
+/dev/sr1        6.1G  6.1G     0 100% /run/media/kabir/Ubuntu 26.04.1 LTS amd64
+/dev/sr0        108M  108M     0 100% /run/media/kabir/CDROM
+tmpfs           463M   48K  463M   1% /run/user/0
+
+===== MEMORY USAGE =====
+               total        used        free      shared  buff/cache   available
+Mem:           4.5Gi       1.4Gi       1.2Gi        18Mi       2.2Gi       3.1Gi
+Swap:          3.1Gi          0B       3.1Gi

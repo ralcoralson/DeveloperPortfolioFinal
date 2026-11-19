@@ -1,0 +1,26 @@
+ASHISH VATS
+
+Roll Number: 2601730008
+
+B.Tech Computer Science Engineering
+K.R. Mangalam University
+
+SKILLS
+- Python
+- Linux
+- Git
+- GitHub
+- Bash
+- Machine Learning
+- Artificial Intelligence
+
+PROJECTS
+- Linux System Documentation
+- System Information Script
+- Backup Automation Script
+- GitHub API Integration
+
+CONTACT
+Email: vatsaashish2009@gmail.com
+GitHub: https://github.com/ralcoralson
+LinkedIn: https://www.linkedin.com/in/ashish-vats-b1ab3224b/

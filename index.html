@@ -1,75 +1,211 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Ashish Vats Portfolio</title>
-<style>
-body{
-font-family:Arial,sans-serif;
-max-width:900px;
-margin:auto;
-padding:20px;
-background:#f4f4f4;
-}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashish Vats | Portfolio</title>
 
-h1{
-color:#003366;
-}
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-section{
-background:white;
-padding:15px;
-margin:15px 0;
-border-radius:8px;
-box-shadow:0 2px 5px rgba(0,0,0,0.1);
-}
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f9;
+            color: #222;
+            line-height: 1.6;
+        }
 
-a{
-color:#0066cc;
-text-decoration:none;
-}
-</style>
+        header {
+            background: #172554;
+            color: white;
+            text-align: center;
+            padding: 45px 20px;
+        }
+
+        header h1 {
+            font-size: 36px;
+        }
+
+        header p {
+            margin-top: 10px;
+        }
+
+        nav {
+            background: #1e293b;
+            padding: 14px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        section {
+            max-width: 850px;
+            margin: 25px auto;
+            padding: 25px;
+            background: white;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #172554;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            padding-left: 22px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #2563eb;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 6px;
+            margin-top: 12px;
+        }
+
+        .button:hover {
+            background: #1d4ed8;
+        }
+
+        footer {
+            background: #172554;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 28px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+
+            section {
+                margin: 15px;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
-<h1>Ashish Vats</h1>
-<p>B.Tech Computer Science Engineering Student</p>
+    <header>
+        <h1>Ashish Vats</h1>
+        <p>Computer Science Engineering Student | Technical Lead</p>
+        <p>AI & Software Development Enthusiast</p>
+    </header>
 
-<section>
-<h2>Skills</h2>
-<ul>
-<li>Linux</li>
-<li>Python</li>
-<li>Git & GitHub</li>
-<li>Machine Learning</li>
-<li>Artificial Intelligence</li>
-</ul>
-</section>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-<section>
-<h2>Projects</h2>
-<ul>
-<li>Linux Documentation Portfolio</li>
-<li>System Information Script</li>
-<li>Backup Automation Script</li>
-<li>GitHub API Integration</li>
-</ul>
-</section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a Computer Science Engineering student interested in
+            Artificial Intelligence, software development, robotics,
+            and emerging technologies. I enjoy building practical
+            projects and learning new technologies.
+        </p>
+    </section>
 
-<section>
-<h2>Professional Profiles</h2>
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>B.Tech – Computer Science Engineering</strong></p>
+        <p>K.R. Mangalam University</p>
+        <p>Expected Graduation: 2030</p>
+    </section>
 
-<p>
-<a href="https://github.com/ralcoralson">GitHub Profile</a>
-</p>
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <p><strong>Technical Lead – SkipIt India</strong></p>
+        <p>Full-time | August 2026 – Present</p>
+        <p>Handling technical responsibilities and technology-related activities.</p>
+    </section>
 
-<p>
-<a href="https://www.linkedin.com/in/ashish-vats-b1ab3224b/">
-LinkedIn Profile
-</a>
-</p>
+    <section id="projects">
+        <h2>My Projects</h2>
 
-</section>
+        <h3>1. VOID – Local AI Assistant</h3>
+        <p>Python-based local AI assistant using Ollama.</p>
+        <a href="https://github.com/ralcoralson/void">View Project</a>
+
+        <br><br>
+
+        <h3>2. SkipIt Experiment</h3>
+        <p>Experimental web development project.</p>
+        <a href="https://github.com/ralcoralson/skipit-experiment">View Project</a>
+
+        <br><br>
+
+        <h3>3. Developer Portfolio</h3>
+        <p>My personal portfolio and technical learning repository.</p>
+        <a href="https://github.com/ralcoralson/DeveloperPortfolioFinal">View Project</a>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>HTML and CSS</li>
+            <li>JavaScript</li>
+            <li>Linux and Bash</li>
+            <li>Git and GitHub</li>
+            <li>REST APIs</li>
+            <li>Ollama</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: vatsaashish2009@gmail.com</p>
+
+        <p>
+            GitHub:
+            <a href="https://github.com/ralcoralson">My GitHub</a>
+        </p>
+
+        <p>
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/ashish-vats-b1ab3224b/">
+                My LinkedIn
+            </a>
+        </p>
+
+        <a class="button"
+           href="Portfolio/Ashish_Vats_Resume.pdf"
+           target="_blank">
+            Download Resume
+        </a>
+    </section>
+
+    <footer>
+        <p>© 2026 Ashish Vats | Personal Portfolio</p>
+    </footer>
 
 </body>
 </html>

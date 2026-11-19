@@ -1,0 +1,3 @@
+Backup completed successfully.
+Backup location: /root/backup
+Date: Fri Nov 20 02:17:12 AM IST 2026

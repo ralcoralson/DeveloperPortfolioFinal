@@ -2,210 +2,221 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ashish Vats | Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ashish Vats - B.Tech Computer Science student developer portfolio.">
+  <title>Ashish Vats — Developer Portfolio</title>
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-        body {
-            font-family: Arial, sans-serif;
-            background: #f4f6f9;
-            color: #222;
-            line-height: 1.6;
-        }
+    body {
+      font-family: Arial, sans-serif;
+      color: #2c2c2c;
+      line-height: 1.75;
+      max-width: 860px;
+      margin: 48px auto;
+      padding: 0 24px;
+    }
 
-        header {
-            background: #172554;
-            color: white;
-            text-align: center;
-            padding: 45px 20px;
-        }
+    header {
+      border-bottom: 4px solid #1F4E79;
+      padding-bottom: 20px;
+      margin-bottom: 36px;
+    }
 
-        header h1 {
-            font-size: 36px;
-        }
+    h1 {
+      color: #1F4E79;
+      font-size: 2rem;
+      margin-bottom: 6px;
+    }
 
-        header p {
-            margin-top: 10px;
-        }
+    h2 {
+      color: #2E75B6;
+      font-size: 1.15rem;
+      margin: 32px 0 14px;
+      padding-left: 12px;
+      border-left: 5px solid #2E75B6;
+    }
 
-        nav {
-            background: #1e293b;
-            padding: 14px;
-            text-align: center;
-        }
+    .badge {
+      display: inline-block;
+      background: #1F4E79;
+      color: white;
+      padding: 4px 14px;
+      border-radius: 16px;
+      font-size: 0.82rem;
+      margin: 4px 4px 4px 0;
+    }
 
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 12px;
-        }
+    .card {
+      border: 1px solid #d0d8e4;
+      border-radius: 8px;
+      padding: 20px 22px;
+      margin: 12px 0;
+      background: #f7faff;
+    }
 
-        nav a:hover {
-            color: #38bdf8;
-        }
+    .card h3 {
+      color: #1F4E79;
+      margin-bottom: 8px;
+    }
 
-        section {
-            max-width: 850px;
-            margin: 25px auto;
-            padding: 25px;
-            background: white;
-            border-radius: 10px;
-        }
+    .card p {
+      margin-bottom: 6px;
+    }
 
-        h2 {
-            color: #172554;
-            margin-bottom: 15px;
-        }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 14px 0;
+    }
 
-        ul {
-            padding-left: 22px;
-        }
+    th {
+      background: #1F4E79;
+      color: white;
+      padding: 8px 12px;
+      text-align: left;
+    }
 
-        .button {
-            display: inline-block;
-            background: #2563eb;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 6px;
-            margin-top: 12px;
-        }
+    td {
+      padding: 8px 12px;
+      border-bottom: 1px solid #e0e8f0;
+    }
 
-        .button:hover {
-            background: #1d4ed8;
-        }
+    tr:nth-child(even) td {
+      background: #f0f5fb;
+    }
 
-        footer {
-            background: #172554;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 30px;
-        }
+    a {
+      color: #2E75B6;
+      text-decoration: none;
+    }
 
-        @media (max-width: 600px) {
-            header h1 {
-                font-size: 28px;
-            }
+    a:hover {
+      text-decoration: underline;
+    }
 
-            nav a {
-                display: inline-block;
-                margin: 5px;
-            }
-
-            section {
-                margin: 15px;
-            }
-        }
-    </style>
+    footer {
+      margin-top: 48px;
+      padding-top: 18px;
+      border-top: 1px solid #d0d8e4;
+      text-align: center;
+      font-size: 0.82rem;
+      color: #888;
+    }
+  </style>
 </head>
 
 <body>
 
-    <header>
-        <h1>Ashish Vats</h1>
-        <p>Computer Science Engineering Student | Technical Lead</p>
-        <p>AI & Software Development Enthusiast</p>
-    </header>
+<header>
+  <h1>Hi, I am Ashish Vats</h1>
+  <p>B.Tech CSE Student • K.R. Mangalam University, Gurugram • Batch 2024–28</p>
 
-    <nav>
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
+  <p style="margin-top:12px">
+    <span class="badge">Python</span>
+    <span class="badge">Linux</span>
+    <span class="badge">Git & GitHub</span>
+    <span class="badge">Shell Scripting</span>
+    <span class="badge">REST APIs</span>
+    <span class="badge">Markdown</span>
+  </p>
+</header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            I am a Computer Science Engineering student interested in
-            Artificial Intelligence, software development, robotics,
-            and emerging technologies. I enjoy building practical
-            projects and learning new technologies.
-        </p>
-    </section>
+<h2>About Me</h2>
+<p>
+  I am a Computer Science and Engineering student at K.R. Mangalam
+  University interested in programming, Linux systems, and software
+  development. I am developing practical skills through academic
+  laboratory exercises and personal projects. My near-term goal is
+  to strengthen my programming foundation and build projects that
+  demonstrate my technical abilities.
+</p>
 
-    <section id="education">
-        <h2>Education</h2>
-        <p><strong>B.Tech – Computer Science Engineering</strong></p>
-        <p>K.R. Mangalam University</p>
-        <p>Expected Graduation: 2030</p>
-    </section>
+<h2>Featured Projects</h2>
 
-    <section id="experience">
-        <h2>Work Experience</h2>
-        <p><strong>Technical Lead – SkipIt India</strong></p>
-        <p>Full-time | August 2026 – Present</p>
-        <p>Handling technical responsibilities and technology-related activities.</p>
-    </section>
+<div class="card">
+  <h3>CSE103 Lab — LAB 3</h3>
+  <p>
+    Academic laboratory work covering Git workflows, API interaction,
+    and Markdown documentation.
+  </p>
+  <p><strong>Tech Stack:</strong> Git, GitHub, Python, REST APIs, Markdown</p>
+  <p>
+    <a href="https://github.com/ralcoralson/cse103-lab-LAB3"
+       target="_blank" rel="noopener noreferrer">
+      View Repository on GitHub
+    </a>
+  </p>
+</div>
 
-    <section id="projects">
-        <h2>My Projects</h2>
+<div class="card">
+  <h3>Beginner Developer Ecosystem Portfolio</h3>
+  <p>
+    A centralised capstone repository organised into Linux,
+    ShellScripts, API, Portfolio, and Screenshots sections.
+  </p>
+  <p><strong>Tech Stack:</strong> Ubuntu, Bash, Git, GitHub, HTML, CSS</p>
+  <p>
+    <a href="https://github.com/ralcoralson/DeveloperPortfolio"
+       target="_blank" rel="noopener noreferrer">
+      View Capstone Repository
+    </a>
+  </p>
+</div>
 
-        <h3>1. VOID – Local AI Assistant</h3>
-        <p>Python-based local AI assistant using Ollama.</p>
-        <a href="https://github.com/ralcoralson/void">View Project</a>
+<h2>Technical Skills</h2>
 
-        <br><br>
+<table>
+  <tr><th>Category</th><th>Technologies</th></tr>
+  <tr><td>Languages</td><td>Python (Beginner), Bash / Shell Scripting</td></tr>
+  <tr><td>Tools</td><td>Git, GitHub, Linux Terminal, curl, VS Code</td></tr>
+  <tr><td>Concepts</td><td>File Systems, Process Management, REST APIs, Markdown</td></tr>
+  <tr><td>Web</td><td>HTML, CSS</td></tr>
+</table>
 
-        <h3>2. SkipIt Experiment</h3>
-        <p>Experimental web development project.</p>
-        <a href="https://github.com/ralcoralson/skipit-experiment">View Project</a>
+<h2>Certifications & Progress</h2>
+<p>
+  Currently developing practical skills through university laboratory
+  work and independent learning.
+</p>
+<p>
+  Certification links and coding-platform statistics will be added
+  after they are earned and verified.
+</p>
 
-        <br><br>
+<h2>Learning Roadmap</h2>
+<p>
+  My six-semester learning roadmap focuses on computer science
+  foundations, programming, databases, web development, and
+  Artificial Intelligence and Machine Learning.
+</p>
+<p>
+  <a href="Portfolio/learning_roadmap.md">
+    View Learning Roadmap
+  </a>
+</p>
 
-        <h3>3. Developer Portfolio</h3>
-        <p>My personal portfolio and technical learning repository.</p>
-        <a href="https://github.com/ralcoralson/DeveloperPortfolioFinal">View Project</a>
-    </section>
+<h2>Contact</h2>
+<p>GitHub:
+  <a href="https://github.com/ralcoralson">github.com/ralcoralson</a>
+</p>
+<p>LinkedIn:
+  <a href="https://www.linkedin.com/in/ashish-vats-b1ab3224b/">
+    Ashish Vats on LinkedIn
+  </a>
+</p>
+<p>Email: vatsaashish2009@gmail.com</p>
 
-    <section id="skills">
-        <h2>Technical Skills</h2>
-        <ul>
-            <li>Python</li>
-            <li>HTML and CSS</li>
-            <li>JavaScript</li>
-            <li>Linux and Bash</li>
-            <li>Git and GitHub</li>
-            <li>REST APIs</li>
-            <li>Ollama</li>
-        </ul>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: vatsaashish2009@gmail.com</p>
-
-        <p>
-            GitHub:
-            <a href="https://github.com/ralcoralson">My GitHub</a>
-        </p>
-
-        <p>
-            LinkedIn:
-            <a href="https://www.linkedin.com/in/ashish-vats-b1ab3224b/">
-                My LinkedIn
-            </a>
-        </p>
-
-        <a class="button"
-           href="Portfolio/Ashish_Vats_Resume.pdf"
-           target="_blank">
-            Download Resume
-        </a>
-    </section>
-
-    <footer>
-        <p>© 2026 Ashish Vats | Personal Portfolio</p>
-    </footer>
+<footer>
+  Built with HTML & CSS • Hosted on GitHub Pages •
+  Updated November 2026
+</footer>
 
 </body>
 </html>

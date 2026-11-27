@@ -1,156 +1,58 @@
-# DeveloperPortfolioFinal 🚀
+# Ashish vats  — Developer Portfolio
 
-### Beginner Developer Ecosystem Portfolio
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen)](https://ralcoralson.github.io/DeveloperPortfolioFinal/)
-[![GitHub](https://img.shields.io/badge/GitHub-ralcoralson-black?logo=github)](https://github.com/ralcoralson)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/ashish-vats-b1ab3224b/)
+> B.Tech CSE (AI/ML) | K.R. Mangalam University, Gurugram | Batch 2024-28
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
-**Name:** Ashish Vats  
-**Roll Number:** 2601730008  
-**Course:** B.Tech Computer Science Engineering  
-**University:** K.R. Mangalam University
+I am a B.Tech Computer Science and Engineering student specialising in Artificial Intelligence and Machine Learning. I am currently developing my skills in Python, Linux, Bash, Git, and other technologies through coursework and practical projects.
 
-I am a Computer Science Engineering student interested in software development, Artificial Intelligence, automation, and emerging technologies. I enjoy building practical projects and exploring new tools to improve my technical skills.
-
-## 📌 Project Overview
-
-DeveloperPortfolioFinal is a beginner-level developer ecosystem portfolio created to showcase my technical learning, practical skills, and development journey.
-
-It brings together Linux commands, Bash scripting, REST API integration, Git and GitHub workflows, and web development in one organized repository.
-
-The project demonstrates my hands-on experience with development tools, automation, version control, and personal portfolio deployment.
-
-## 🌐 Live Portfolio
-
-**Visit my website:**
-
-[https://ralcoralson.github.io/DeveloperPortfolioFinal/](https://ralcoralson.github.io/DeveloperPortfolioFinal/)
-## 📄 My Resume
-
-[Download My Resume (PDF)](Portfolio/Ashish_Vats_Resume.pdf)
-## 🚀 My Projects & Work
-
-### 1. VOID – Local AI Assistant
-
-A Python-based local AI assistant designed to support AI conversations through Ollama, with local memory and offline functionality.
-
-- Local AI interaction
-- Memory management
-- Terminal-based interface
-- AI-powered assistance
-
-**Technologies:** Python, Ollama, SQLite
-
-🔗 [View Repository – VOID](https://github.com/ralcoralson/void)
-
-### 2. SkipIt Experiment – Web Development
-
-An experimental web development project exploring interactive interfaces and web application functionality.
-
-- Dashboard interface
-- Marketplace components
-- Authentication-related features
-- UI and frontend experimentation
-
-**Technologies:** HTML, CSS, JavaScript, Python
-
-🔗 [View Repository – SkipIt Experiment](https://github.com/ralcoralson/skipit-experiment)
-
-### 3. DeveloperPortfolioFinal – Personal Portfolio
-
-A personal developer portfolio showcasing my academic work, technical skills, Linux exercises, shell scripts, and API integration.
-
-- Linux commands and system profile
-- Bash automation scripts
-- REST API integration
-- Personal portfolio website
-
-**Technologies:** Linux, Bash, Git, GitHub, REST API, HTML
-
-🔗 [View Repository](https://github.com/ralcoralson/DeveloperPortfolioFinal)
-
-🌐 [Live Website](https://ralcoralson.github.io/DeveloperPortfolioFinal/)
+I enjoy learning new technologies and applying my knowledge to solve problems.
 
 ---
 
-## 📁 Repository Structure
+## Current Skills
 
-```text
-DeveloperPortfolioFinal/
-│
-├── Linux/
-│   ├── System Profile
-│   └── Linux Commands Output
-│
-├── ShellScripts/
-│   ├── System Information Script
-│   └── Backup Script
-│
-├── API/
-│   ├── GitHub API Integration
-│   └── JSONPlaceholder API
-│
-├── Portfolio/
-│   ├── Resume PDF
-│   └── Learning Roadmap
-│
-├── Screenshots/
-│   ├── GitHub Profile
-│   ├── LinkedIn Profile
-│   ├── Portfolio Website
-│   └── Script Outputs
-│
-└── README.md
-```
-
-## 🛠️ Technologies & Tools
-
-| Category | Technologies |
-|---|---|
-| Operating System | Linux |
-| Scripting | Bash, Python |
-| Web Development | HTML, CSS, JavaScript |
-| Version Control | Git, GitHub |
-| API Development | REST API |
-| Data Format | JSON |
-| AI Tools | Ollama |
-
-## 🎯 Learning Objectives
-
-- Understand Linux commands and basic system administration.
-- Develop shell scripts for automation.
-- Learn REST API integration and JSON handling.
-- Practice Git and GitHub version control.
-- Build and deploy personal web projects.
-- Explore Artificial Intelligence and local AI tools.
-- Improve problem-solving and programming skills.
-
-## 📸 Screenshots
-
-Screenshots and project demonstrations are organized in the `Screenshots/` directory.
-
-## 🔗 Connect With Me
-
-- **GitHub:** [ralcoralson](https://github.com/ralcoralson)
-- **LinkedIn:** [Ashish Vats](https://www.linkedin.com/in/ashish-vats-b1ab3224b/)
-- **Portfolio:** [DeveloperPortfolioFinal](https://ralcoralson.github.io/DeveloperPortfolioFinal/)
+- Python [█████░░░░░] 50%
+- Linux / Bash [████░░░░░░] 40%
+- Git / GitHub [█████░░░░░] 50%
 
 ---
 
-## 👨‍🎓 Author
+## Repository Index
 
-**Ashish Vats**
-
-B.Tech Computer Science Engineering  
-K.R. Mangalam University
+| Repository | Description | Tech Stack | Status |
+|------------|-------------|------------|--------|
+| [cse103-lab-LAB3](https://github.com/ralcoralson/cse103-lab-LAB3) | CSE103 lab — Git, APIs, Shell scripting | Git, Python, Bash | Active |
+| [developer-portfolio](https://github.com/ralcoralson/developerportfoliofinal) | Personal developer portfolio and assignment work | HTML, Markdown, Bash | Active |
 
 ---
 
-⭐ If you find my projects interesting, feel free to explore my repositories and follow my development journey.
+## Assignment Sections
 
-**Always Learning. Always Building. Always Improving.**
+| Section | Description |
+|---------|-------------|
+| Linux | Linux commands and system information |
+| ShellScripts | Bash scripts for system information and file backup |
+| API | GitHub repository and REST API interaction using curl and jq |
+| Portfolio | Personal portfolio website, resume, and learning roadmap |
+
+---
+
+## Learning Roadmap
+
+See [LEARNING_ROADMAP.md](./LEARNING_ROADMAP.md) for my full 6-semester plan.
+
+## Progress Tracker
+
+See [PROGRESS.md](./PROGRESS.md) for coding platform progress.
+
+---
+
+## Professional Profiles
+
+- **GitHub:** https://github.com/ralcoralson
+- **LinkedIn:** www.linkedin.com/in/ashish-vats-b1ab3224b
+
+---

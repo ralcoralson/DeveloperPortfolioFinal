@@ -1,6 +1,6 @@
 # Ashish vats  — Developer Portfolio
 
-> B.Tech CSE (AI/ML) | K.R. Mangalam University, Gurugram | Batch 2024-28
+> B.Tech CSE (AI/ML) | K.R. Mangalam University, Gurugram | Batch 2026-30
 
 ---
 
